@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:Tahoma;
+}
+	
+	
+.form_login
+{
+/*	margin-top:30px;*/
+	display:inline-block;
+	line-height:35px;
+	background:#EEE;
+	color:#555;
+	border-radius:4px;
+	padding:20px;
+	border:solid 1px #777;
+}
+	.form_login th
+	{
+		width:350px;
+		font-size:16px;
+		line-height:50px;
+	}
+	.form_login td
+	{
+		text-align:left;
+	}
+
+input[type='text']
+{
+	border:solid 1px #CCC;
+	border-radius:3px;
+	line-height:20px;
+}
+input[type='submit']
+{
+	cursor:pointer;
+	border:solid 1px #777;
+	border-radius:3px;
+	padding:5px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#FFF;
+	background:#AAA;
+}
+input[type='submit']:hover
+{
+	background:#CCC;
+	color:#555;
+}

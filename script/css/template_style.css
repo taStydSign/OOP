@@ -1,0 +1,177 @@
+@charset "utf-8";
+* {
+		margin:0px;
+		padding:0px;
+		text-decoration: none;
+	    list-style: none;
+		font-size:12px;
+		font-family:Tahoma;
+	}
+
+
+
+
+
+.menu_style > ul >li
+{
+	float:left;
+	padding-left:15px;
+	padding-right:15px;
+	
+	font-size:15px;
+}
+	.menu_style > ul > li:hover
+	{
+		cursor:pointer;
+		color:#ffcc33;
+	}
+
+.menu_style > ul > li > ul {
+	margin-left:-15px;
+	position:absolute;
+	color:#333;
+	border-top:solid 1px #AAA;
+}
+	.menu_style > ul > li > ul > li
+	{
+		display:none;
+		min-width:200px;
+		padding-left:15px;
+		padding-right:15px;
+		line-height:30px;
+		border-bottom:solid 1px #AAA;
+		background:#223344;
+		color:#FFF;
+		font-size:14px;
+	}
+	.menu_style > ul > li > ul > li:hover
+	{
+		color:#ffcc33;	
+	}
+	
+	
+	.menu_style > ul > li:hover > ul > li {
+		display:block;
+	}
+	
+	
+.mark { background:#fffee6; }
+.tbl_style_01
+{
+	line-height:30px;
+}
+	.tbl_style_01 th
+	{
+		border-bottom:solid 2px #CCC;
+		color:#cf6600;
+	}
+	.tbl_style_01 td
+	{
+		padding:3px;
+		padding-left:10px;
+		border-bottom:solid 1px #CCC;
+		color:#333;
+	}
+	.tbl_style_01 tr:hover td
+	{
+		cursor:pointer;
+		background:#FFE4A8;
+	}
+	
+	
+
+
+
+.tbl_style_02 td
+	{
+		line-height:20px;
+		padding:10px;
+		border-top:solid 1px #CCC;
+	}
+	.tbl_style_02 th
+	{
+		line-height:20px;
+		padding:10px;
+		background:#FFC;
+		border-bottom:solid 1px #FFF;
+
+		font-size:14px;
+		font-weight:normal;
+		color:#F63;
+		text-align:left;
+	}
+	
+	
+	
+	
+.btn_style_01
+{
+	border:solid 1px #AAA;
+	border-radius:3px;
+	background:#EEEEEE;
+	cursor:pointer;
+	
+	padding:5px;
+	padding-left:30px;
+	padding-right:30px;
+	
+	color:#333;
+	
+	font-size:12px;
+	font-weight:bold;
+}
+	.btn_style_01:hover
+	{
+		background:#AAA;
+		color:#FFF;
+	}
+	
+	
+	
+.pagination
+{
+	display:inline-block;
+	padding:2px;
+	padding-left:5px;
+	padding-right:5px;
+
+	border:solid 1px #CCC;
+	font-size:10px;
+	cursor:pointer;
+	margin-left:2px;
+}
+	.pagination:hover
+	{
+		border:solid 1px #AAA;
+	}
+	.pagination_mark
+	{
+		font-weight:bold;
+		border:solid 1px #000;
+		background:#777;
+		color:#FFF;
+	}
+	
+
+
+	
+.head_style_01
+{
+	display:inline-block;
+	color:#666;
+	font-size:16px;
+	
+}
+.normal_style_01
+{
+	display:inline-block;
+	font-size:14px;
+	padding-left:10px;
+	padding-right:10px;
+	border-bottom:dotted 1px #CCC;
+	
+	margin-bottom:10px;
+}
+/* CSS Document */
+
+
